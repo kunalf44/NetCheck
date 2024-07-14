@@ -19,8 +19,11 @@ Window {
     }
 
     RoundButton{
-        text: "Refresh page"
+        text: "Refresh \n page"
         height: 60
+        width: 100
+        anchors.top: parent.top
+        anchors.topMargin: 5
         anchors.left: parent.left
         anchors.leftMargin: 20
         onClicked: {
@@ -62,11 +65,11 @@ RowLayout{
 
     ScrollView {
          width: 1024
-        height: 535
+        height: 530
         anchors.bottom: parent.bottom
         WebView {
             id: webview
-            url: "https://www.github.com/"
+            url: "https://github.com/kunalf44"
             anchors.fill: parent
         }
     }
