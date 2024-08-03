@@ -15,10 +15,13 @@ NetCheck is a Qt application that checks the current system's internet connectiv
 
 ## Screenshot
 
-- Connected
-<img src="netcheckss1.png"  height="200" width="400">
-- Not-Connected
-<img src="netcheckss2.png"  height="200" width="400">
+- *Connected*
+
+<img src="netcheckss1.png"  height="300" width="600">
+
+- *Not-Connected*
+
+<img src="netcheckss2.png"  height="300" width="600">
 
 
 ## Build and run the project:
